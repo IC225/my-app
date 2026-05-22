@@ -1,0 +1,101 @@
+.movie-details {
+  padding: 40px;
+  color: white;
+}
+
+.details-hero {
+  display: flex;
+  gap: 40px;
+}
+
+.details-poster {
+  border-radius: 8px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.details-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.details-info h1 {
+  font-size: 36px;
+}
+
+.tagline {
+  color: #aaa;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.overview {
+  line-height: 1.7;
+  color: #ccc;
+  max-width: 600px;
+}
+
+.similar-section {
+  margin-top: 60px;
+}
+
+.similar-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.similar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.similar-card {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+
+.similar-card img {
+  width: 100%;
+  border-radius: 6px;
+  transition: transform 0.2s;
+}
+
+.similar-card:hover img {
+  transform: scale(1.05);
+}
+
+.similar-card p {
+  margin-top: 6px;
+  color: #ccc;
+}
+
+.reviews-section {
+  margin-top: 60px;
+}
+
+.reviews-section h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.review-card {
+  background-color: #1f1f1f;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 16px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #E50914;
+}
+
+.review-card p {
+  color: #ccc;
+  line-height: 1.6;
+}

@@ -57,3 +57,50 @@
 .pagination span {
   color: #aaa;
 }
+
+.movie-info {
+  padding: 8px;
+  background-color: #1f1f1f;
+}
+
+.fav-btn {
+  width: 100%;
+  margin-top: 6px;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+}
+
+.fav-btn.active {
+  background-color: #E50914;
+}
+
+.filters-form {
+  display: flex;
+  gap: 12px;
+  padding: 20px 40px;
+  align-items: center;
+}
+
+.filters-form select {
+  background-color: #1f1f1f;
+  color: white;
+  border: 1px solid #444;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filters-form button {
+  background-color: #E50914;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
